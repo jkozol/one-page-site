@@ -1,0 +1,95 @@
+html, body, #app, #app>div {
+  height: 100%;
+  /*background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;*/
+}
+
+/*body {
+  background-image: url('lines2.jpg');
+}*/
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  outline:none
+}
+
+/*.nav-link:hover {
+  color: black;
+  text-decoration: none;
+}*/
+
+/*.nav-link:active {
+  color: black;
+  text-decoration: none;
+}*/
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+/*#topNavLine {
+  content: "";
+  display: block;
+  border-top: 1px solid #ccc;
+  margin: 0 15px;
+}*/
+
+#sidebar {
+  width: 15vw;
+  float: left;
+  height: 10vh;
+  margin-top: 35vh;
+  margin-left: 10vw;
+  margin-right: 5vw;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+#content {
+  float: right;
+  width: 50vw;
+  margin-left: 0vw;
+  margin-right: 15vw;
+}
+
+#logo {
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
+}
+
+
+/* SECTION top */
+#home {
+  height:100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#home > div {
+  align-self: center;
+}
+/*#home  h1 {
+  font-size: 3rem;font-weight: 400; border: 3px solid #333; text-transform: uppercase;  padding: 30px; display: inline-block; margin: 0 auto;}
+#home  h1:hover { cursor: pointer; border: 10px solid #333; padding: 23px;}
+#home  h2 { color: #333; text-transform: uppercase; font-size: 1.96rem; letter-spacing: 3px; }*/
