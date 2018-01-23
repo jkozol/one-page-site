@@ -18,7 +18,7 @@ class Home extends React.Component {
 
     return (
       <div>
-        <Link activeClass="active" spy={true} smooth={true} duration={500} to={'beta'}><h1>Jacob Kozol</h1></Link>
+        <Link activeClass="active" spy={true} smooth={true} duration={500} to={'about'}><h1>Jacob Kozol</h1></Link>
         <h2>Web-Engineer&-Designer</h2>
       </div>
     );

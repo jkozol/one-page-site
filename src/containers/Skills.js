@@ -1,10 +1,17 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import Sidebar from '../components/Sidebar'
 import { setColorActive, setColorText, setColorHover } from '../modules/actions/colors';
 
 class Skills extends React.Component {
+  componentDidMount() {
+      var rect = ReactDOM.findDOMNode(this).getBoundingClientRect();
+
+      console.log(rect);
+    }
+
   render() {
     const StyledDiv = styled.div`
       outline-style: solid;
